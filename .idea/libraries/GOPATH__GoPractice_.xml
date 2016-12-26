@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;GoPractice&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/kvpaxos" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/mapreduce" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos-shardkv" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/shardkv" />
+      <root url="file://$PROJECT_DIR$/../Practice/src/FilePractice" />
+      <root url="file://$PROJECT_DIR$/../template/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/lockservice" />
+      <root url="file://$PROJECT_DIR$/../template/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/kvraft" />
+      <root url="file://$PROJECT_DIR$/../template/src/sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/shardmaster" />
+      <root url="file://$PROJECT_DIR$/../JVM/src/ch01" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/pbservice" />
+      <root url="file://$PROJECT_DIR$/../JVM/src/ch02" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/labrpc" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/raft" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/viewservice" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/main" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/diskv" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos-shardmaster" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/kvpaxos" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/mapreduce" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos-shardkv" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/shardkv" />
+      <root url="file://$PROJECT_DIR$/../Practice/src/FilePractice" />
+      <root url="file://$PROJECT_DIR$/../template/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/lockservice" />
+      <root url="file://$PROJECT_DIR$/../template/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/kvraft" />
+      <root url="file://$PROJECT_DIR$/../template/src/sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/shardmaster" />
+      <root url="file://$PROJECT_DIR$/../JVM/src/ch01" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/pbservice" />
+      <root url="file://$PROJECT_DIR$/../JVM/src/ch02" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/labrpc" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/raft" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/viewservice" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/main" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/diskv" />
+      <root url="file://$PROJECT_DIR$/../MITDistributedSystem/2016/src/paxos-shardmaster" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
