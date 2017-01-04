@@ -16,9 +16,17 @@ func main() {
 
 	//x := 100 //等价于 var x int = 100;
 	z := 111
-	fmt.Print(z)
+	fmt.Println(z)
 
 	//常量
 	const y = "string"
-	fmt.Print(y)
+	fmt.Println(y)
+	//y = "newString"
+
+	//指针
+	var p *int
+	p = &x
+	fmt.Println(p)
+	*p = 2
+	fmt.Println(x)
 }

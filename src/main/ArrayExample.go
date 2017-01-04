@@ -18,4 +18,10 @@ func main() {
 	fmt.Println(b)
 	//输出数组的长度
 	fmt.Println(len(b))
+
+	//数组指针
+	arrP := &arr
+	(*arrP)[1] = 20
+	fmt.Println(arr)
+	fmt.Println(*arrP)
 }
