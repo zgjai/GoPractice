@@ -44,6 +44,17 @@ func main() {
 	fmt.Println("s4 cap:", cap(s4))
 	fmt.Println("********我是分割线********")
 
+	//new 的方式创建slice，基本不用
+	s5 := new([]int)
+	fmt.Println("s5:", s5)
+	fmt.Println("*s5:", *s5)
+	fmt.Println("*s5==nil?:", *s5 == nil)
+
+	*s5 = append(*s5, 1)
+	fmt.Println("s5:", s5)
+	fmt.Println("s5:", *s5)
+	fmt.Println("********我是分割线********")
+
 
 	//slice的增长
 	fmt.Println("s1 before append:", s1)

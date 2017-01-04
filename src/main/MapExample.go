@@ -13,10 +13,12 @@ func main() {
 	m["3"] = "v3"
 	fmt.Println(m)
 	fmt.Println(len(m))
+	fmt.Println("********我是分割线********")
 
 	//获取key为 "1" 的value
 	s1 := m["1"]
 	fmt.Println(s1)
+	fmt.Println("********我是分割线********")
 
 	//获取key为 "4" 的value
 	//map中实际不存在这个key，获取到的value为?
@@ -24,16 +26,20 @@ func main() {
 	fmt.Println(s2)
 	fmt.Println(s2 == "")
 	fmt.Println(len(s2))
+	fmt.Println("********我是分割线********")
 
 	//获取map中value时，根据返回的bool值来确定map中是否包含该key
 	s1, ok := m["1"]
 	fmt.Println("value: ", s1, "ok: ", ok)
+	fmt.Println("********我是分割线********")
 
 	s2, ok = m["4"]
 	fmt.Println("value: ", s2, "ok: ", ok)
+	fmt.Println("********我是分割线********")
 
 	delete(m, "3")
 	fmt.Println(m)
+	fmt.Println("********我是分割线********")
 
 	//通过map实现set
 	set := map[string]bool{
