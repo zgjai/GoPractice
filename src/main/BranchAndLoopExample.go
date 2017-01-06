@@ -8,15 +8,15 @@ func main() {
 	ifExample(8)
 	ifExample(7)
 	ifExample(6)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	switchExample(1)
 	switchExample(6)
 	switchExample(7)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	forExample(10)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	forRangeExample()
 }

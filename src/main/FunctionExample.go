@@ -11,7 +11,7 @@ func main() {
 	max := maxF
 	fmt.Println(max(1, 2, 3, 4, 5, 0, 2, 3, 10, -1))
 	fmt.Println(max([]int{}...))
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//定义一个函数值min
 	//参数类型为...int，参数名为nums
@@ -31,7 +31,7 @@ func main() {
 	}
 	//匿名函数
 	fmt.Println(min([]int{-1, -2, -3, -4, -5, 1, -7, 0}...))
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	nextNumFunc := nextNum()
 	for i := 0; i < 10; i++ {

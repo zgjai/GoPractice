@@ -13,18 +13,18 @@ func main() {
 	var b = true //bool型
 
 	fmt.Printf("%d\n%s\n%d\n%d\n%d\n%t\n", x, str, i, j, k, b)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//x := 100 //等价于 var x int = 100;
 	z := 111
 	fmt.Println(z)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//常量
 	const y = "string"
 	fmt.Println(y)
 	//y = "newString"
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//指针
 	var p *int
@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(p)
 	*p = 2
 	fmt.Println(x)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	var n *int = new(int)
 	fmt.Println(n)

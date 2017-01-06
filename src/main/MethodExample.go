@@ -33,19 +33,19 @@ func (c *coder) learnLanguage(language string) {
 func main() {
 	c := coder{"Tom", []string{"java"}}
 	fmt.Println(c)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	sayName(c)
 	c.sayName()
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	c.learnLanguageUnknown("Go")
 	fmt.Println(c)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	c.learnLanguage("Go")
 	fmt.Println(c)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	i := newInt(1)
 	j := newInt(2)

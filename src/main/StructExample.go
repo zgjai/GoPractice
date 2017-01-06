@@ -30,14 +30,14 @@ func main() {
 	p2 := person{age:18, s:female, name:"莉丝"}
 	fmt.Println(p1)
 	fmt.Println(p2)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//访问struct中的元素
 	fmt.Println(p1.age)
 	fmt.Println(p2.name)
 	p1.name = "张一"
 	fmt.Println(p1)
-	fmt.Println("********我是分割线********")
+	fmt.Println("********I am split line********")
 
 	//struct的指针
 	p3 := &person{age:18, s:female, name:"莉丝"}
