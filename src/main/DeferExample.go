@@ -1,10 +1,10 @@
 package main
 
 import (
-	"os"
-	"log"
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
+	"log"
+	"os"
 	"time"
 )
 
@@ -14,6 +14,9 @@ func main() {
 	fmt.Println("********I am split line********")
 
 	slowOperation()
+	fmt.Println("********I am split line********")
+
+	deferStack()
 }
 
 func openFile(filePath string) {
@@ -32,14 +35,14 @@ func openFile(filePath string) {
 	fmt.Printf("%s", b)
 }
 
-
 func slowOperation() {
 	//最后的()不能丢！！！
 	defer trace("slowOperation")()
 
 	//sleep 3s
-	time.Sleep(3*time.Second)
+	time.Sleep(3 * time.Second)
 }
+
 //一个通用的追踪函数
 //可以用于记录函数的进入退出以及执行时间
 func trace(msg string) func() {
@@ -50,3 +53,9 @@ func trace(msg string) func() {
 	}
 }
 
+//test defer stack
+func deferStack() {
+	defer fmt.Println(1)
+	defer fmt.Println(2)
+	defer fmt.Println(3)
+}
