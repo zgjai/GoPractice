@@ -10,23 +10,23 @@ var wg sync.WaitGroup
 
 func main() {
 	//为了让main等待
-	wg.Add(3)
+	/*wg.Add(3)
 	go unsafeGet("one")
 	go unsafeGet("two")
 	go unsafeGet("five")
-	wg.Wait()
+	wg.Wait()*/
 
-	wg.Add(3)
+	/*wg.Add(3)
 	go lockGet("one")
 	go lockGet("two")
 	go lockGet("five")
-	wg.Wait()
+	wg.Wait()*/
 
-	wg.Add(3)
+	/*wg.Add(3)
 	go rLockGet("one")
 	go rLockGet("two")
 	go rLockGet("five")
-	wg.Wait()
+	wg.Wait()*/
 
 	wg.Add(3)
 	go onceGet("one")

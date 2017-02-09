@@ -37,8 +37,10 @@ func switchExample(num int) {
 	switch num {
 	case 1:
 		fmt.Println("1")
+		fallthrough
 	case 2:
 		fmt.Println("2")
+		break
 	case 3:
 		fmt.Println("3")
 	case 4, 5, 6:

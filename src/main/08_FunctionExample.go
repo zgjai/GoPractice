@@ -62,7 +62,7 @@ func maxF(nums ...int) (int, error) {
 //函数闭包
 //返回值类型为函数
 //返回的函数是一个无参返回值为int的函数
-func nextNum() func() int {
+func nextNum() (func() int) {
 	i, j := 0, 1
 	return func() int {
 		tmp := i + j
