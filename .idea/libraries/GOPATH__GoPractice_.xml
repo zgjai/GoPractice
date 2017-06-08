@@ -2,6 +2,7 @@
   <library name="GOPATH &lt;GoPractice&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/diskv" />
+      <root url="file://$PROJECT_DIR$/../template/src/gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/main" />
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/paxos-shardkv" />
       <root url="file://$PROJECT_DIR$/../template/src/golang.org" />
@@ -134,6 +135,7 @@
     </CLASSES>
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/diskv" />
+      <root url="file://$PROJECT_DIR$/../template/src/gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/main" />
       <root url="file://$PROJECT_DIR$/../../DistributedSystem/Owner/MIT/2016/src/paxos-shardkv" />
       <root url="file://$PROJECT_DIR$/../template/src/golang.org" />
